@@ -9,13 +9,13 @@ body {
 }
 
 #hero {
-    margin-top: 0;
+    /*margin-top: 0;
     background-image: linear-gradient(rgba(36, 36, 36, 0), #242424), url(img/top-bg.jpg);
-    color: #fff;
+    color: #fff;*/
 }
 
 .hero-text {
-    padding-top: 28%;
+    padding: 10% 0;
 }
 
 #hero h1 {
@@ -32,19 +32,25 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/*#divider-gradient {
-    background: linear-gradient(white, #242424) bottom;
-    height: 250px;
-    margin-top: -180px;
-}*/
-
 #achievement {
-    /*padding: 150px 0;*/
-    padding-top: 50px;
+    padding: 40px 0;
+/*    padding: 150px 0;
     background-color: #242424;
-    color: #fff;
+    color: #fff;*/
 }
 
 .paragraph {
     /*margin: 0 15%;*/
+}
+
+#biography {
+    padding: 40px 0;
+}
+
+.biography-paragraph {
+    padding: 0 50px;
+}
+
+#biography h1 {
+    padding-bottom: 50px;
 }

@@ -14,8 +14,8 @@
   </head>
   <body>
     
-    <!--<section id="navigation">
-        <nav class="navbar navbar-dark">
+    <section id="navigation">
+        <nav class="navbar bg-transparent navbar-dark">
            <div class="container">
             <a class="navbar-brand" href="#">
             <img src="resources/img/starlogo.svg" width="auto" height="40" class="d-inline-block align-top" alt="star logo"></a>
@@ -35,7 +35,7 @@
             </div>
            </div>
         </nav>
-    </section>-->
+    </section>
     
     
     <section id="hero">
@@ -47,7 +47,8 @@
                       <p class="lead mb-1">
                     In the remembrance of
                     </p>
-                    <h1 class="display-3 pb-4">Mr. Someone Name</h1>
+                    <h1 class="display-3">Mr. Someone Name</h1>
+                    <p class="lead pb-4">1900-2000</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fuga odit magni. Temporibus asperiores mollitia culpa dolore, voluptatem suscipit, fugiat perferendis maiores quam inventore illum aspernatur! Vero a, repellat voluptate.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fuga odit magni. Temporibus asperiores mollitia culpa dolore, voluptatem suscipit, fugiat perferendis maiores quam inventore illum aspernatur! Vero a, repellat voluptate.</p> 
                    </div>
@@ -55,19 +56,22 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image">
-<!--
-                        <img src="resources/img/hero-img.png" class="img-fluid">
--->
+                        <div class="d-flex align-items-start flex-column" style="height: 450px;">
+                          <div class="mb-auto p-2"></div>
+                          <div class="p-2">
+                              <blockquote class="blockquote text-right">
+                                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                              </blockquote>
+                          </div>
+                        </div>
                     </div>
                 </div> 
            </div>
         </div>
     </section>
     
-    <section id="divider-gradient">
-        
-    </section>
-    
+
     <section id="achievement">
         <div class="container">
             <div class="row">
@@ -75,36 +79,98 @@
                    
                    <h2>Achievements</h2>
                    <p class="pb-3 mr-5">Note how text-capitalize only changes the first letter of each word.</p>
-                   
-                    
                 
                 </div>
-                
-                <!--<div class="col-lg-6">
-                   <div class="paragraph">
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p> 
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere earum, necessitatibus, suscipit explicabo vitae, cum nulla deleniti repellendus, veniam et accusamus. Vero magni voluptas assumenda animi nesciunt, veniam necessitatibus aliquid.</p>
-                   </div>
-                    
-                </div>-->
             </div>
             
             <div class="row pt-4">
-                      <div class="col-lg-4 d-inline-block">
-                        <h5 class="text-muted">01</h5>
-                        <h4 class="mb-4" style="font-weight: 700;">Passion.</h4>
-                        <p>We do what we do for a reason: We’re passionate about delivering positive experiences.</p>
+                    
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-white bg-secondary mb-4">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start flex-column" style="height: 200px;">
+                                  <div class="mb-auto"><h6 class="card-subtitle">01</h6></div>
+                                  <div><h4 class="card-title">Passion</h4></div>
+                                  <div><p class="card-text">Some quick example text to build on the card.</p></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 d-inline-block">
-                        <h5 class="text-muted">02</h5>
-                        <h4 class="mb-4" style="font-weight: 700;">Challenge.</h4>
-                        <p>It's not about how something looks, but how it feels. We design with consideration. Attention to detail is everything.</p>
+                    
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-white bg-secondary mb-4">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start flex-column" style="height: 200px;">
+                                  <div class="mb-auto"><h6 class="card-subtitle">02</h6></div>
+                                  <div><h4 class="card-title">Challenge</h4></div>
+                                  <div><p class="card-text">Some quick example text to build on the card.</p></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 d-inline-block">
-                        <h5 class="text-muted">03</h5>
-                        <h4 class="mb-4" style="font-weight: 700;">Design.</h4>
-                        <p>To achieve excellence, we challenge ourselves and those we work with. Making the uncomfortable comfortable.</p>
+                    
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-white bg-secondary mb-4">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start flex-column" style="height: 200px;">
+                                  <div class="mb-auto"><h6 class="card-subtitle">03</h6></div>
+                                  <div><h4 class="card-title">Design</h4></div>
+                                  <div><p class="card-text">Some quick example text to build on the card.</p></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-white bg-secondary mb-4">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start flex-column" style="height: 200px;">
+                                  <div class="mb-auto"><h6 class="card-subtitle">04</h6></div>
+                                  <div><h4 class="card-title">Dimsum</h4></div>
+                                  <div><p class="card-text">Some quick example text to build on the card.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+        </div>
+    </section>
+    
+    
+    <section id="biography">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                      <div class="mb-auto p-2">
+                          <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                          </div>
+                      </div>
+                      <div class="p-2">
+                          <blockquote class="blockquote text-right">
+                              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                          </blockquote>
+                      </div>
+                </div>
+                
+                <div class="col-lg-6">
+                   <div class="biography-paragraph">
+                        <p class="lead mb-1">In the remembrance of</p>
+                        <h1 class="mb-4">Mr. Someone Name</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fuga odit magni. Temporibus asperiores mollitia culpa dolore, voluptatem suscipit, fugiat perferendis maiores quam inventore illum aspernatur! Vero a, repellat voluptate.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fuga odit magni. Temporibus asperiores mollitia culpa dolore, voluptatem suscipit, fugiat perferendis maiores quam inventore illum aspernatur! Vero a, repellat voluptate.</p> 
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="slider">
+        <div class="container-fluid">
+            <div class="row">
+                
             </div>
         </div>
     </section>
