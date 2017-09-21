@@ -4,11 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
-
 .bg-transparent {
     background-color: transparent;
 }
@@ -33,7 +28,11 @@ h1, h2, h3 {
 }
 
 .hero-image {
-    padding-top: 10%;
+    background-image: url(img/bg_top.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 380px auto;
+    padding-top: 15%;
     text-align: center;
 }
 
@@ -49,7 +48,7 @@ h1, h2, h3 {
 }
 
 #biography {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .biography-paragraph {
@@ -60,10 +59,7 @@ h1, h2, h3 {
     padding-bottom: 50px;
 }
 
-#image-slider {
-    padding: 40px 0;
-}
-
-.bxslider {
-
+.no-gutter {
+    padding-right: 0;
+    padding-left: 0;
 }
